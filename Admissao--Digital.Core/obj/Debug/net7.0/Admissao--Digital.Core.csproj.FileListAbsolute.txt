@@ -1,0 +1,15 @@
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Core\obj\Debug\net7.0\Admissao--Digital.Core.csproj.AssemblyReference.cache
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Core\obj\Debug\net7.0\Admissao--Digital.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Core\obj\Debug\net7.0\Admissao--Digital.Core.AssemblyInfoInputs.cache
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Core\obj\Debug\net7.0\Admissao--Digital.Core.AssemblyInfo.cs
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Core\obj\Debug\net7.0\Admissao--Digital.Core.csproj.CoreCompileInputs.cache
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Core\bin\Debug\net7.0\Admissao--Digital.Core.deps.json
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Core\bin\Debug\net7.0\Admissao--Digital.Core.dll
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Core\bin\Debug\net7.0\Admissao--Digital.Core.pdb
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Core\bin\Debug\net7.0\Admissao--Digital.application.dll
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Core\bin\Debug\net7.0\Admissao--Digital.application.pdb
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Core\obj\Debug\net7.0\Admissao--Digital.Core.csproj.CopyComplete
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Core\obj\Debug\net7.0\Admissao--Digital.Core.dll
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Core\obj\Debug\net7.0\refint\Admissao--Digital.Core.dll
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Core\obj\Debug\net7.0\Admissao--Digital.Core.pdb
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Core\obj\Debug\net7.0\ref\Admissao--Digital.Core.dll

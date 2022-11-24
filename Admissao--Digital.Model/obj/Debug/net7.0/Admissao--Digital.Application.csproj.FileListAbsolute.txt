@@ -1,0 +1,12 @@
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Model\bin\Debug\net7.0\Admissao--Digital.Application.deps.json
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Model\bin\Debug\net7.0\Admissao--Digital.Application.dll
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Model\bin\Debug\net7.0\Admissao--Digital.Application.pdb
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Model\obj\Debug\net7.0\Admissao--Digital.Application.csproj.AssemblyReference.cache
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Model\obj\Debug\net7.0\Admissao--Digital.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Model\obj\Debug\net7.0\Admissao--Digital.Application.AssemblyInfoInputs.cache
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Model\obj\Debug\net7.0\Admissao--Digital.Application.AssemblyInfo.cs
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Model\obj\Debug\net7.0\Admissao--Digital.Application.csproj.CoreCompileInputs.cache
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Model\obj\Debug\net7.0\Admissao--Digital.Application.dll
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Model\obj\Debug\net7.0\refint\Admissao--Digital.Application.dll
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Model\obj\Debug\net7.0\Admissao--Digital.Application.pdb
+C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Model\obj\Debug\net7.0\ref\Admissao--Digital.Application.dll
