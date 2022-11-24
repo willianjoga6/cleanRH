@@ -1097,11 +1097,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\willi\\source\\repos\\Admissao--Digital\\Admissao--Digital.Infra\\Admissao--Digital.Infra.csproj",
+      "projectUniqueName": "C:\\repository\\cleanRH\\Admissao--Digital.Infra\\Admissao--Digital.Infra.csproj",
       "projectName": "Admissao--Digital.Infra",
-      "projectPath": "C:\\Users\\willi\\source\\repos\\Admissao--Digital\\Admissao--Digital.Infra\\Admissao--Digital.Infra.csproj",
+      "projectPath": "C:\\repository\\cleanRH\\Admissao--Digital.Infra\\Admissao--Digital.Infra.csproj",
       "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\willi\\source\\repos\\Admissao--Digital\\Admissao--Digital.Infra\\obj\\",
+      "outputPath": "C:\\repository\\cleanRH\\Admissao--Digital.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1123,11 +1123,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\willi\\source\\repos\\Admissao--Digital\\Admissao--Digital.application\\Admissao--Digital.application.csproj": {
-              "projectPath": "C:\\Users\\willi\\source\\repos\\Admissao--Digital\\Admissao--Digital.application\\Admissao--Digital.application.csproj"
+            "C:\\repository\\cleanRH\\Admissao--Digital.application\\Admissao--Digital.application.csproj": {
+              "projectPath": "C:\\repository\\cleanRH\\Admissao--Digital.application\\Admissao--Digital.application.csproj"
             },
-            "C:\\Users\\willi\\source\\repos\\Admissao--Digital\\Admissao--Digital.Core\\Admissao--Digital.Core.csproj": {
-              "projectPath": "C:\\Users\\willi\\source\\repos\\Admissao--Digital\\Admissao--Digital.Core\\Admissao--Digital.Core.csproj"
+            "C:\\repository\\cleanRH\\Admissao--Digital.Core\\Admissao--Digital.Core.csproj": {
+              "projectPath": "C:\\repository\\cleanRH\\Admissao--Digital.Core\\Admissao--Digital.Core.csproj"
             }
           }
         }

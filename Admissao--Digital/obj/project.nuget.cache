@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vY0ZyrItuP5049g2oMIWFzM1dZ8nqIea3t8cErGloZVEfLmIdCYd4BtEwKmnwr0a/qnMySELjZjwO5MzO7KRdw==",
+  "dgSpecHash": "2J/FcA926oquKzkZLNHE1o4MI/Na5tSbeMdNb5lJdLmEt9B3pTlg7nH7kfxHt/t4IydUwrjWMAHpIeu710VLmA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\willi\\source\\repos\\Admissao--Digital\\Admissao--Digital\\Admissao--Digital.csproj",
+  "projectFilePath": "C:\\repository\\cleanRH\\Admissao--Digital\\Admissao--Digital.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\willi\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\willi\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
