@@ -1,7 +1,7 @@
 ﻿
-using Admissao__Digital.application.Model;
+using Admissao__Digital.Core.Entidades;
 using Admissao__Digital.Core.Interface.Infra;
-using Admissao__Digital.Core.Interface.Repo;
+using Admissao__Digital.Core.Interface.Services;
 using Dapper;
 using MySql.Data.MySqlClient;
 using Newtonsoft.Json;
@@ -22,7 +22,7 @@ namespace Admissao__Digital.Infra.Repository
             _stringConexao = _conexaoDB.GetConexao();
         }
 
-        public long InserirDadosContratado(ModelCriarUsuario modelCriarUsuario)
+        public long InserirDadosContratado(CriarUsuario modelCriarUsuario)
         {
             try
             {                

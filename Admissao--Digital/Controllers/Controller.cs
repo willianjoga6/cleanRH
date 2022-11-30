@@ -1,4 +1,6 @@
-using Admissao__Digital.application.Model;
+using Admissao__Digital.application.Mapper;
+using Admissao__Digital.application.ViewModel;
+using Admissao__Digital.Core.Entidades;
 using Admissao__Digital.Core.Services;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -21,9 +23,12 @@ namespace Admissao__Digital.Controllers
 
         [HttpPost]
         [Route("Contratado")]
-        public IActionResult Inserir([FromBody] ModelCriarUsuario modelCriarUsuario)
-        {            
-            _gerenciadorJsonContratado.CriarUsuario(modelCriarUsuario);
+        public IActionResult Inserir([FromBody] CriarUsuarioViewModel criarUsuarioViewModel)
+        {
+            var criarUsuario = CriarUsuarioMapper.ToCriarUsuarioEntity(criarUsuarioViewModel);
+
+            _gerenciadorJsonContratado.CriarUsuario(criarUsuario);
+
             return Ok("Usuário criado com sucesso");
         }
     }

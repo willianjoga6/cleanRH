@@ -1,5 +1,5 @@
 using Admissao__Digital.Core.Interface.Infra;
-using Admissao__Digital.Core.Interface.Repo;
+using Admissao__Digital.Core.Interface.Services;
 using Admissao__Digital.Core.Services;
 using Admissao__Digital.Infra.Infra;
 using Admissao__Digital.Infra.Repository;

@@ -1,14 +1,15 @@
-﻿using Admissao__Digital.Core.Interface.Repo;
+﻿using Admissao__Digital.Core.Interface.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Admissao__Digital.application.Model;
+using Admissao__Digital.Core.Entidades;
+using Newtonsoft.Json;
 
 namespace Admissao__Digital.Core.Services
 {
-    
+
     public class GerenciadorJsonContratado
     {
         private readonly IInserirContratado _inserirContratado;
@@ -20,7 +21,7 @@ namespace Admissao__Digital.Core.Services
             _inserirDependentes = inserirDependentes;
         }
 
-        public bool CriarUsuario(ModelCriarUsuario modelCriarUsuario) 
+        public bool CriarUsuario(CriarUsuario modelCriarUsuario)
         {
             try
             {
@@ -32,16 +33,16 @@ namespace Admissao__Digital.Core.Services
             catch (Exception)
             {
                 throw;
-            }            
+            }
         }
 
-        public bool CriarDependente(ModelCriarUsuario modelCriarUsuario, long idContratado)
+        public bool CriarDependente(CriarUsuario modelCriarUsuario, long idContratado)
         {
             try
             {
                 if (modelCriarUsuario.Dependente.Count > 0)
                 {
-                    var idsDependentes = _inserirDependentes.InserirDadosDependentes(modelCriarUsuario, idContratado);
+                    var idsDependentes = _inserirDependentes.InserirDadosDependentes(modelCriarUsuario, idContratado);                    
 
                     return true;
                 }
@@ -52,7 +53,7 @@ namespace Admissao__Digital.Core.Services
             {
                 throw;
             }
-            
+
         }
 
 

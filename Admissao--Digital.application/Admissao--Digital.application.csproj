@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Admissao--Digital.Core\Admissao--Digital.Core.csproj" />
+  </ItemGroup>
+
 </Project>

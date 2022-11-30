@@ -14,16 +14,6 @@
             "related": ".xml"
           }
         }
-      },
-      "Admissao--Digital.application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Admissao--Digital.application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Admissao--Digital.application.dll": {}
-        }
       }
     }
   },
@@ -54,16 +44,10 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
-    },
-    "Admissao--Digital.application/1.0.0": {
-      "type": "project",
-      "path": "../Admissao--Digital.application/Admissao--Digital.application.csproj",
-      "msbuildProject": "../Admissao--Digital.application/Admissao--Digital.application.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Admissao--Digital.application >= 1.0.0",
       "Newtonsoft.Json >= 13.0.1"
     ]
   },
@@ -99,11 +83,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "C:\\repository\\cleanRH\\Admissao--Digital.application\\Admissao--Digital.application.csproj": {
-              "projectPath": "C:\\repository\\cleanRH\\Admissao--Digital.application\\Admissao--Digital.application.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

@@ -13,3 +13,15 @@ C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Core\obj\Debug\n
 C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Core\obj\Debug\net7.0\refint\Admissao--Digital.Core.dll
 C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Core\obj\Debug\net7.0\Admissao--Digital.Core.pdb
 C:\Users\willi\source\repos\Admissao--Digital\Admissao--Digital.Core\obj\Debug\net7.0\ref\Admissao--Digital.Core.dll
+C:\repository\cleanRH\Admissao--Digital.Core\obj\Debug\net7.0\Admissao--Digital.Core.csproj.AssemblyReference.cache
+C:\repository\cleanRH\Admissao--Digital.Core\obj\Debug\net7.0\Admissao--Digital.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\repository\cleanRH\Admissao--Digital.Core\obj\Debug\net7.0\Admissao--Digital.Core.AssemblyInfoInputs.cache
+C:\repository\cleanRH\Admissao--Digital.Core\obj\Debug\net7.0\Admissao--Digital.Core.AssemblyInfo.cs
+C:\repository\cleanRH\Admissao--Digital.Core\obj\Debug\net7.0\Admissao--Digital.Core.csproj.CoreCompileInputs.cache
+C:\repository\cleanRH\Admissao--Digital.Core\bin\Debug\net7.0\Admissao--Digital.Core.deps.json
+C:\repository\cleanRH\Admissao--Digital.Core\bin\Debug\net7.0\Admissao--Digital.Core.dll
+C:\repository\cleanRH\Admissao--Digital.Core\bin\Debug\net7.0\Admissao--Digital.Core.pdb
+C:\repository\cleanRH\Admissao--Digital.Core\obj\Debug\net7.0\Admissao--Digital.Core.dll
+C:\repository\cleanRH\Admissao--Digital.Core\obj\Debug\net7.0\refint\Admissao--Digital.Core.dll
+C:\repository\cleanRH\Admissao--Digital.Core\obj\Debug\net7.0\Admissao--Digital.Core.pdb
+C:\repository\cleanRH\Admissao--Digital.Core\obj\Debug\net7.0\ref\Admissao--Digital.Core.dll

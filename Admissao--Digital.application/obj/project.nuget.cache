@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Bne047NLYsDlWXQh3qeionwQd14KLGu++H6qV8NEVlyTFFMColw2LAvpvyFFu/1UryRCX7bLs42x/M82p8zP/A==",
+  "dgSpecHash": "aRJeihbETo8HtXUfHwFUrAIZmsOx78HRS1LBnkqOIGGEANEwwCRHqLMr900qNU4hQWxM6v6OE6lx1a1ATuMaKA==",
   "success": true,
   "projectFilePath": "C:\\repository\\cleanRH\\Admissao--Digital.application\\Admissao--Digital.application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\willi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

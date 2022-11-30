@@ -32,7 +32,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\repository\\cleanRH\\Admissao--Digital.Core\\Admissao--Digital.Core.csproj": {
+                "projectPath": "C:\\repository\\cleanRH\\Admissao--Digital.Core\\Admissao--Digital.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -92,11 +96,7 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {
-              "C:\\repository\\cleanRH\\Admissao--Digital.application\\Admissao--Digital.application.csproj": {
-                "projectPath": "C:\\repository\\cleanRH\\Admissao--Digital.application\\Admissao--Digital.application.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -193,6 +193,10 @@
             "MySql.Data": {
               "target": "Package",
               "version": "[8.0.31, )"
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [

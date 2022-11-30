@@ -1,12 +1,8 @@
-﻿
-using Admissao__Digital.application.Model;
+﻿using Admissao__Digital.Core.Entidades;
 using Admissao__Digital.Core.Interface.Infra;
-using Admissao__Digital.Core.Interface.Repo;
+using Admissao__Digital.Core.Interface.Services;
 using Dapper;
 using MySql.Data.MySqlClient;
-using Newtonsoft.Json;
-using System.Text.Json.Nodes;
-using System.Text.Json.Serialization;
 
 namespace Admissao__Digital.Infra.Repository
 {
@@ -24,15 +20,13 @@ namespace Admissao__Digital.Infra.Repository
             _stringConexao = _conexaoDB.GetConexao();
         }
 
-        public long InserirDadosDependentes(ModelCriarUsuario modelCriarUsuario, long idGestor)
+        public bool InserirDadosDependentes( CriarUsuario jsonDependente, long idGestor)
         {
             try
-            {
-                var jsonSerialize = JsonConvert.SerializeObject(modelCriarUsuario);
-
+            {                
                 using var _conn = new MySqlConnection(_stringConexao);
 
-                foreach(var i in modelCriarUsuario.Dependente)
+                foreach(var i in jsonDependente.Dependente)
                 {
                     var sql = @"
                             INSERT INTO DEPENDENTES
@@ -66,10 +60,9 @@ namespace Admissao__Digital.Infra.Repository
                         genero = i.dep_cdigenero,
                         parentesco = i.dep_cdiparentesco
                     });
-                    
-                    return select;
                 }
-                return 0;
+                return true;
+
             }
             catch (Exception)
             {
