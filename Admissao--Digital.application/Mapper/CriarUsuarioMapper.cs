@@ -8,22 +8,26 @@ namespace Admissao__Digital.application.Mapper
     {
         public static CriarUsuario ToCriarUsuarioEntity(CriarUsuarioViewModel criarUsuarioViewModel)
         {
+            List<Dependentes> dependente = new List<Dependentes>();
             
+
             var criarContratado = new CriarUsuario
                                     (
-                                        criarUsuarioViewModel.con_dssnome, 
-                                        criarUsuarioViewModel.con_dtdnascimento, 
-                                        criarUsuarioViewModel.con_rg, 
-                                        criarUsuarioViewModel.con_coscic, 
+                                        criarUsuarioViewModel.con_dssnome,
+                                        criarUsuarioViewModel.con_dtdnascimento,
+                                        criarUsuarioViewModel.con_rg,
+                                        criarUsuarioViewModel.con_coscic,
                                         criarUsuarioViewModel.con_cdigenero,
-                                        criarUsuarioViewModel.Dependente
-                                    );
+                                        dependente
+                                    ) ;
 
             return criarContratado;
         }
         public static RetornoCriarUsuarioViewModel ToRetornoCriarUsuarioViewModel( CriarUsuario criarUsuario, long idContratado)
         {
-            var retornoCriarUsuario = new RetornoCriarUsuarioViewModel(idContratado, criarUsuario.Dependente);
+            List<RetornoDependentes> retornoDependentes = new List<RetornoDependentes>();
+
+            var retornoCriarUsuario = new RetornoCriarUsuarioViewModel(idContratado, retornoDependentes);
 
             return retornoCriarUsuario;
         }

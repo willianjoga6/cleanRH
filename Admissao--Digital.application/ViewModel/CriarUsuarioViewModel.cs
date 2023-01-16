@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace Admissao__Digital.application.ViewModel
 {
@@ -11,7 +8,7 @@ namespace Admissao__Digital.application.ViewModel
         public CriarUsuarioViewModel()
         {
         }
-        public CriarUsuarioViewModel(string con_dssnome, DateTime con_dtdnascimento, string con_rg, string con_coscic, int con_cdigenero, List<Dependentes> dependente)
+        public CriarUsuarioViewModel(string con_dssnome, DateTime con_dtdnascimento, string con_rg, string con_coscic, int con_cdigenero, List<DependentesVM> dependente)
         {
             this.con_dssnome = con_dssnome;
             this.con_dtdnascimento = con_dtdnascimento;
@@ -21,15 +18,17 @@ namespace Admissao__Digital.application.ViewModel
             Dependente = dependente;
         }
 
+        [Required] 
         public string con_dssnome { get; set; }
         public DateTime con_dtdnascimento { get; set; }
         public string con_rg { get; set; }
         public string con_coscic { get; set; }
         public int con_cdigenero { get; set; }
-        public List<Dependentes> Dependente { get; set; }
+         
+        public List<DependentesVM> Dependente { get; set; }
     }
 
-    public class Dependentes
+    public class DependentesVM
     {
         public string dep_dssnome { get; set; }
         public DateTime dep_dtdnascimento { get; set; }

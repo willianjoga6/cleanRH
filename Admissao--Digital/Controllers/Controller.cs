@@ -1,6 +1,7 @@
 using Admissao__Digital.application.Mapper;
 using Admissao__Digital.application.ViewModel;
 using Admissao__Digital.Core.Entidades;
+using Admissao__Digital.Core.Interface.Services;
 using Admissao__Digital.Core.Services;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -13,13 +14,16 @@ namespace Admissao__Digital.Controllers
     public class Controller : ControllerBase
     {
         private readonly ILogger<Controller> _logger;
-        private readonly GerenciadorJsonContratado _gerenciadorJsonContratado;
+        private readonly IContratadoService _contratadoService;
+        private readonly IValidadorFotosService _validadorFotosService;
 
-        public Controller(ILogger<Controller> logger, GerenciadorJsonContratado gerenciadorJsonContratado)
+        public Controller(ILogger<Controller> logger, IContratadoService contratadoService, IValidadorFotosService validadorFotosService)
         {
             _logger = logger;
-            _gerenciadorJsonContratado = gerenciadorJsonContratado;
+            _contratadoService = contratadoService;
+            _validadorFotosService = validadorFotosService;
         }
+       
 
         [HttpPost]
         [Route("Contratado")]
@@ -27,9 +31,18 @@ namespace Admissao__Digital.Controllers
         {
             var criarUsuario = CriarUsuarioMapper.ToCriarUsuarioEntity(criarUsuarioViewModel);
 
-            _gerenciadorJsonContratado.CriarUsuario(criarUsuario);
+            _contratadoService.CriarUsuario(criarUsuario);
 
             return Ok("Usuário criado com sucesso");
+        }
+
+        [HttpGet]
+        [Route("Consultar")]
+        public IActionResult Consultar()
+        {
+            var retornoImagem64 = _validadorFotosService.ConverterImagemBase64();
+
+            return Ok(retornoImagem64);
         }
     }
 }

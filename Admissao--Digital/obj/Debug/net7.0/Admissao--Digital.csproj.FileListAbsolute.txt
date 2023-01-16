@@ -115,3 +115,4 @@ C:\repository\cleanRH\Admissao--Digital\obj\Debug\net7.0\refint\Admissao--Digita
 C:\repository\cleanRH\Admissao--Digital\obj\Debug\net7.0\Admissao--Digital.pdb
 C:\repository\cleanRH\Admissao--Digital\obj\Debug\net7.0\Admissao--Digital.genruntimeconfig.cache
 C:\repository\cleanRH\Admissao--Digital\obj\Debug\net7.0\ref\Admissao--Digital.dll
+C:\repository\cleanRH\Admissao--Digital\obj\Debug\net7.0\Admissao--Digital.MvcApplicationPartsAssemblyInfo.cs

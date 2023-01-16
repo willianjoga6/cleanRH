@@ -10,12 +10,12 @@ using Newtonsoft.Json;
 namespace Admissao__Digital.Core.Services
 {
 
-    public class GerenciadorJsonContratado
+    public class ContratadoService : IContratadoService
     {
         private readonly IInserirContratado _inserirContratado;
         private readonly IInserirDependentes _inserirDependentes;
 
-        public GerenciadorJsonContratado(IInserirContratado inserirContratado, IInserirDependentes inserirDependentes)
+        public ContratadoService(IInserirContratado inserirContratado, IInserirDependentes inserirDependentes)
         {
             _inserirContratado = inserirContratado;
             _inserirDependentes = inserirDependentes;

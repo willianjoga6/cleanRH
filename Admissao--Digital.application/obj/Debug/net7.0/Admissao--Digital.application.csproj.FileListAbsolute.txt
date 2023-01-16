@@ -22,3 +22,6 @@ C:\repository\cleanRH\Admissao--Digital.application\obj\Debug\net7.0\Admissao--D
 C:\repository\cleanRH\Admissao--Digital.application\obj\Debug\net7.0\refint\Admissao--Digital.application.dll
 C:\repository\cleanRH\Admissao--Digital.application\obj\Debug\net7.0\Admissao--Digital.application.pdb
 C:\repository\cleanRH\Admissao--Digital.application\obj\Debug\net7.0\ref\Admissao--Digital.application.dll
+C:\repository\cleanRH\Admissao--Digital.application\bin\Debug\net7.0\Admissao--Digital.Core.dll
+C:\repository\cleanRH\Admissao--Digital.application\bin\Debug\net7.0\Admissao--Digital.Core.pdb
+C:\repository\cleanRH\Admissao--Digital.application\obj\Debug\net7.0\Admissao--Digital.application.csproj.CopyComplete

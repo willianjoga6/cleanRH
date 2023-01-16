@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Admissao__Digital.Core.Entidades
+﻿namespace Admissao__Digital.Core.Entidades
 {
     public class CriarUsuario
     {
@@ -27,6 +21,7 @@ namespace Admissao__Digital.Core.Entidades
         public string con_rg { get; set; }
         public string con_coscic { get; set; }
         public int con_cdigenero { get; set; }
+        
         public List<Dependentes>? Dependente { get; set; }
     }
 

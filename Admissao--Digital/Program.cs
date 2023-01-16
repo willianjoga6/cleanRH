@@ -7,7 +7,8 @@ using Admissao__Digital.Infra.Repository;
 var builder = WebApplication.CreateBuilder(args);
 
 // injeção de dependência
-builder.Services.AddScoped<GerenciadorJsonContratado, GerenciadorJsonContratado>();
+builder.Services.AddScoped<IContratadoService, ContratadoService>();
+builder.Services.AddScoped<IValidadorFotosService, ValidadorFotosService>();
 
 builder.Services.AddScoped<IConexaoDB, ConexaoDB>();
 builder.Services.AddScoped<IInserirContratado, InserirContratado>();

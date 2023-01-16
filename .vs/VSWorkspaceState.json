@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Admissao--Digital.Infra",
-    "\\Admissao--Digital.Infra\\Repository"
+    "\\Admissao--Digital",
+    "\\Admissao--Digital.application",
+    "\\Admissao--Digital.application\\Mapper",
+    "\\Admissao--Digital\\Controllers"
   ],
-  "SelectedNode": "\\Admissao--Digital.Infra\\Repository\\InserirDependentes.cs",
+  "SelectedNode": "\\Admissao--Digital\\Controllers\\Controller.cs",
   "PreviewInSolutionExplorer": false
 }
